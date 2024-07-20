@@ -4,90 +4,102 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Portfolio</title>
+     <!-- css file -->
     <link rel="stylesheet" href="style.css">
+    //image address
+     <!--  image address     -->
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
 </head>
 <body>
     <header>
         <div class="container">
+           <!--  developer name  -->
             <h1>Muskan Makandar</h1>
+
             <p class="tagline">Web Developer | Designer | Programmer</p>
         </div>
     </header>
 
-    <nav>
-        <div class="container">
-            <ul>
-                <li><a href="#about">About</a></li>
-                <li><a href="#skills">Skills</a></li>
-                <li><a href="#projects">Projects</a></li>
-                <li><a href="#resume">Resume</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
-        </div>
-    </nav>
+   <nav>
+    <div class="container">
+        <!-- Skill set -->
+        <ul>
+            <li><a href="#about">About Me</a></li>
+            <li><a href="#skills">My Skills</a></li>
+            <li><a href="#projects">My Projects</a></li>
+            <li><a href="#resume">Resume</a></li>
+            <li><a href="#contact">Contact Me</a></li>
+        </ul>
+    </div>
+</nav>
 
-    <section id="about">
-        <div class="container">
-            <h2>About Me</h2>
-            <div class="about-content">
-                <img src="https://fiatmatch.com/wp-content/uploads/2022/12/student-849821_1280.jpg" alt="Muskan Makandar">
-                <p>Hi! I am Muskan Makandar, a passionate web developer with experience in creating dynamic and responsive websites. I have a strong background in HTML, CSS, JavaScript, and other web technologies. I love bringing ideas to life in the browser and constantly learning new things to stay up-to-date with the latest trends in web development.</p>
+<section id="about">
+    <div class="container">
+        <h2>About Me</h2>
+        <div class="about-content">
+            <img src="https://fiatmatch.com/wp-content/uploads/2022/12/student-849821_1280.jpg" alt="Muskan Makandar">
+            <p>Hello there! I’m Muskan. I love being a web developer. I create websites that are dynamic & responsive. My skills include HTML, CSS, JavaScript, & other cool web stuff. Bringing ideas to life in the browser makes me happy! Plus, I’m always learning new things so I can keep up with what’s trending in web dev.</p>
+        </div>
+    </div>
+</section>
+
+<section id="skills">
+    <div class="container">
+        <h2>My Skills</h2>
+        <ul>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+            <li>React</li>
+            <li>Node.js</li>
+            <li>Python</li>
+            <li>Responsive Design</li>
+            <li>Version Control (Git)</li>
+        </ul>
+    </div>
+</section>
+
+<section id="projects">
+    <div class="container">
+        <h2>My Projects</h2>
+        <div class="projects-grid">
+            <!-- Project 1 -->
+            <div class="project">
+                <h3>E-commerce Website</h3>
+                <img src="https://5.imimg.com/data5/SELLER/Default/2020/9/HI/PO/EE/6668018/e-commerce-solutions-500x500.jpg" alt="E-commerce Website">
+                <p>This project is all about building an e-commerce website! Using ResNet18 & the Cosine algorithm in Python, I made a recommendation system using a GAN (Generative Adversarial Network) to suggest products just for you!</p>
             </div>
-        </div>
-    </section>
 
-    <section id="skills">
-        <div class="container">
-            <h2>Skills</h2>
-            <ul>
-                <li>HTML</li>
-                <li>CSS</li>
-                <li>JavaScript</li>
-                <li>React</li>
-                <li>Node.js</li>
-                <li>Python</li>
-                <li>Responsive Design</li>
-                <li>Version Control (Git)</li>
-            </ul>
-        </div>
-    </section>
-
-    <section id="projects">
-        <div class="container">
-            <h2>Projects</h2>
-            <div class="projects-grid">
-                <div class="project">
-                    <h3>E-commerce Website</h3>
-                    <img src="https://5.imimg.com/data5/SELLER/Default/2020/9/HI/PO/EE/6668018/e-commerce-solutions-500x500.jpg" alt="E-commerce Website">
-                    <p>This project involves building an e-commerce website using ResNet18 and the Cosine algorithm in Python. The recommendation system is powered by a GAN (Generative Adversarial Network) to provide personalized product suggestions to users.</p>
-                </div>
-                <div class="project">
-                    <h3>Healthcare Assistant App</h3>
-                    <img src="https://cdn.dribbble.com/users/153662/screenshots/4772233/nenad-ivanovic-shifty-prototyping.gif" alt="Healthcare Assistant App">
-                    <p>This project is a mobile app designed to assist healthcare providers. The app includes features for patient management, appointment scheduling, and real-time health monitoring. It leverages machine learning algorithms to provide personalized health recommendations and alerts.</p>
-                </div>
-                <!-- Add more projects as needed -->
+            <!-- Project 2 -->
+            <div class="project">
+                <h3>Healthcare Assistant App</h3>
+                <img src="https://cdn.dribbble.com/users/153662/screenshots/4772233/nenad-ivanovic-shifty-prototyping.gif" alt="Healthcare Assistant App">
+                <p>This is a mobile app aimed at helping healthcare providers! It has features like patient management & appointment scheduling. Plus, it includes real-time health monitoring & uses machine learning for personalized recommendations and alerts.</p>
             </div>
-        </div>
-    </section>
 
-    <section id="resume">
-        <div class="container">
-            <h2>Resume</h2>
-            <p>You can download my resume <a href="resume.pdf" target="_blank">here</a>.</p>
+            <!-- Add more projects as needed -->
         </div>
-    </section>
+    </div>
+</section>
 
-    <section id="contact">
-        <div class="container">
-            <h2>Contact</h2>
-            <p>Email: your-email@example.com</p>
-            <p>Phone: (123) 456-7890</p>
-            <p>LinkedIn: <a href="https://www.linkedin.com/in/yourprofile/" target="_blank">linkedin.com/in/makandar</a></p>
-            <p>GitHub: <a href="https://github.com/yourusername" target="_blank">github.com/makandar</a></p>
-        </div>
-    </section>
+<section id="resume">
+    <div class="container">
+        <h2>Resume</h2>
+        <<p>You can grab my resume<b>&nbsp;</b><a href='resume.pdf' target='_blank'>here!</a></p>>
+    </div
+></section>
+
+<<section id='contact'>
+    <<div class='container'>
+        <<h2'>Contact Me!</h2>>
+        
+       <p>Email: your-email@example.com<p/>
+       <p>Phone: (123) 456-7890<p/>
+       <p>LinkedIn: <<a href='https://www.linkedin.com/in/yourprofile/' target='_blank'>linkedin.com/in/makandar.a.</a<< / p >
+       
+       < p >GitHub: << a href='https://github.com / yourusername' target='_blank'>github.com/makandar.< / p >
+   < / div >
+< / section >
 
     <footer>
         <div class="container">
